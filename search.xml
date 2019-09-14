@@ -5,12 +5,18 @@
     
     <entry>
       <title>The First Step</title>
-      <link href="/2019/09/15/The-First-Step/"/>
-      <url>/2019/09/15/The-First-Step/</url>
+      <link href="/2019/09/15/the-first-step/"/>
+      <url>/2019/09/15/the-first-step/</url>
       
         <content type="html"><![CDATA[<p><em>This is the first test page</em></p><p><strong>test</strong></p><h2 id="二级标题中文"><a href="#二级标题中文" class="headerlink" title="二级标题中文"></a>二级标题中文</h2><h5 id="五级标题中文"><a href="#五级标题中文" class="headerlink" title="五级标题中文"></a>五级标题中文</h5><p>Normal text</p><hr><p><del>over</del></p><p>记录：</p><ul><li><a href="https://zhuanlan.zhihu.com/p/35668237" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/35668237</a></li><li><a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md</a></li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> note </tag>
+            
+        </tags>
       
     </entry>
     
