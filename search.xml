@@ -27,15 +27,15 @@
       <link href="/2019/09/17/dao-hang-cmder-wsl-docker-plex/"/>
       <url>/2019/09/17/dao-hang-cmder-wsl-docker-plex/</url>
       
-        <content type="html"><![CDATA[<p>大好的中秋节，我为了一个更好的家庭影院，两个晚上全都折进去了，悉数无数的大坑，希望对大家有用。</p><p><strong>目的：</strong> 我的目的开始的时候非常单纯，我之前的plex搭在树莓派上，因为性能不太得行，毕竟树莓派上还跑这一堆乱七八糟的，也没钱买新的，就打算直接放在我玩游戏的电脑上得了，优点是性能给劲，缺点也很明显，毕竟不是一个服务器，总有关机的时候，但我想了想，首先我平时这台机子就不怎么关，其次是我也不是时时刻刻要看电影，看的时候大部分时间机器是开的，仿佛不怎么冲突。其实最主要的是我想折腾，没别的特殊理由，就是想折腾而已。</p><p>其实最简单的就是下载plex media server for Windows，但我觉得这样不够干净，也不够折腾，所以我觉得还是放在docker上比较好。开关方便，删除方便，跑在容器里也和我的主系统隔离的明明白白，玩特别吃资源的游戏说关就关，之前工作的时候也在docker上，比较熟悉和放心，但没想到我越走越远了。</p><p>我的心路历程如下：</p><ol><li>我想在WSL里面直接跑一个plexmediaserver，美滋滋</li><li>后来发现各种不行，这个放文章里细说，总之就想到了干脆折腾再多一点，在WSL里搞docker，docker里搞plex</li><li>后来的后来又发现不得行，具体后面文章细说，总之就是闹了个大乌龙，这里先卖个关子。</li><li>最后当然是为了美观上了Cmder，和主流程无关。</li></ol><p>现在回看，就四个字</p><p><strong>我太难了</strong></p><p>真的是各种作死各种踩坑，花了两个晚上终于全搞定了。</p><p><strong>这个页面是导航页面，请大家挑选观看，废话我都写在这个导航页里了，下面这些都是干货</strong></p><ul><li>WSL</li><li>在WSL里运行docker</li><li>docker安装plex以及设置</li><li>Cmder</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<p>大好的中秋节，我为了一个更好的家庭影院，两个晚上全都折进去了，悉数无数的大坑，希望对大家有用。</p><p><strong>目的：</strong> 我的目的开始的时候非常单纯，我之前的plex搭在树莓派上，因为性能不太得行，毕竟树莓派上还跑这一堆乱七八糟的，也没钱买新的，就打算直接放在我玩游戏的电脑上得了，优点是性能给劲，缺点也很明显，毕竟不是一个服务器，总有关机的时候，但我想了想，首先我平时这台机子就不怎么关，其次是我也不是时时刻刻要看电影，看的时候大部分时间机器是开的，仿佛不怎么冲突。其实最主要的是我想折腾，没别的特殊理由，就是想折腾而已。</p><p>其实最简单的就是下载plex media server for Windows，但我觉得这样不够干净，也不够折腾，所以我觉得还是放在docker上比较好。开关方便，删除方便，跑在容器里也和我的主系统隔离的明明白白，玩特别吃资源的游戏说关就关，之前工作的时候也在docker上，比较熟悉和放心，但没想到我越走越远了。</p><p>我的心路历程如下：</p><ol><li>我想在WSL里面直接跑一个plexmediaserver，美滋滋</li><li>后来发现各种不行，这个放文章里细说，总之就想到了干脆折腾再多一点，在WSL里搞docker，docker里搞plex</li><li>后来的后来又发现不得行，具体后面文章细说，总之就是闹了个大乌龙，这里先卖个关子。</li><li>最后当然是为了美观上了Cmder，和主流程无关。</li></ol><p>现在回看，就四个字</p><p><strong>我太难了</strong></p><p>真的是各种作死各种踩坑，花了两个晚上终于全搞定了。</p><p><strong>这个页面是导航页面，请大家挑选观看，废话我都写在这个导航页里了，下面这些都是干货</strong></p><ul><li><a href="https://jackmcking.github.io/2019/09/17/wsl-cai-keng-ji-jin/">WSL</a></li><li>在WSL里运行docker (敬请期待)</li><li>docker安装plex以及设置 (敬请期待)</li><li>Cmder (敬请期待)</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       
         <tags>
             
-            <tag> Cmder </tag>
-            
             <tag> WSL </tag>
+            
+            <tag> Cmder </tag>
             
             <tag> docker </tag>
             
