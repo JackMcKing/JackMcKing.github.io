@@ -4,16 +4,9 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="The First Step, Flint Hexo">
-    <meta name="description" content="This is the first test page
-test
-二级标题中文五级标题中文Normal text
-
-over
-记录：
-
-https://zhuanlan.zhihu.com/p/35668237
-https://github">
+    <meta name="keywords" content="【导航】Cmder+WSL+docker+plex, Flint Hexo">
+    <meta name="description" content="大好的中秋节，我为了一个更好的家庭影院，两个晚上全都折进去了，悉数无数的大坑，希望对大家有用。
+目的： 我的目的开始的时候非常单纯，我之前的plex搭在树莓派上，因为性能不太得行，毕竟树莓派上还跑这一堆乱七八糟的，也没钱买新的，就打算直接放">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -21,7 +14,7 @@ https://github">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>The First Step | Flint Hexo</title>
+    <title>【导航】Cmder+WSL+docker+plex | Flint Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -270,13 +263,13 @@ https://github">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        The First Step
+                        【导航】Cmder+WSL+docker+plex
                     </div>
                 </div>
             </div>
@@ -387,8 +380,20 @@ https://github">
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/note/" target="_blank">
-                                <span class="chip bg-color">note</span>
+                            <a href="/tags/Cmder/" target="_blank">
+                                <span class="chip bg-color">Cmder</span>
+                            </a>
+                        
+                            <a href="/tags/WSL/" target="_blank">
+                                <span class="chip bg-color">WSL</span>
+                            </a>
+                        
+                            <a href="/tags/docker/" target="_blank">
+                                <span class="chip bg-color">docker</span>
+                            </a>
+                        
+                            <a href="/tags/plex/" target="_blank">
+                                <span class="chip bg-color">plex</span>
                             </a>
                         
                     </div>
@@ -402,7 +407,7 @@ https://github">
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-09-15
+                    2019-09-17
                 </div>
 
                 
@@ -418,15 +423,25 @@ https://github">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><em>This is the first test page</em></p>
-<p><strong>test</strong></p>
-<h2 id="二级标题中文"><a href="#二级标题中文" class="headerlink" title="二级标题中文"></a>二级标题中文</h2><h5 id="五级标题中文"><a href="#五级标题中文" class="headerlink" title="五级标题中文"></a>五级标题中文</h5><p>Normal text</p>
-<hr>
-<p><del>over</del></p>
-<p>记录：</p>
+                <p>大好的中秋节，我为了一个更好的家庭影院，两个晚上全都折进去了，悉数无数的大坑，希望对大家有用。</p>
+<p><strong>目的：</strong> 我的目的开始的时候非常单纯，我之前的plex搭在树莓派上，因为性能不太得行，毕竟树莓派上还跑这一堆乱七八糟的，也没钱买新的，就打算直接放在我玩游戏的电脑上得了，优点是性能给劲，缺点也很明显，毕竟不是一个服务器，总有关机的时候，但我想了想，首先我平时这台机子就不怎么关，其次是我也不是时时刻刻要看电影，看的时候大部分时间机器是开的，仿佛不怎么冲突。其实最主要的是我想折腾，没别的特殊理由，就是想折腾而已。</p>
+<p>其实最简单的就是下载plex media server for Windows，但我觉得这样不够干净，也不够折腾，所以我觉得还是放在docker上比较好。开关方便，删除方便，跑在容器里也和我的主系统隔离的明明白白，玩特别吃资源的游戏说关就关，之前工作的时候也在docker上，比较熟悉和放心，但没想到我越走越远了。</p>
+<p>我的心路历程如下：</p>
+<ol>
+<li>我想在WSL里面直接跑一个plexmediaserver，美滋滋</li>
+<li>后来发现各种不行，这个放文章里细说，总之就想到了干脆折腾再多一点，在WSL里搞docker，docker里搞plex</li>
+<li>后来的后来又发现不得行，具体后面文章细说，总之就是闹了个大乌龙，这里先卖个关子。</li>
+<li>最后当然是为了美观上了Cmder，和主流程无关。</li>
+</ol>
+<p>现在回看，就四个字</p>
+<p><strong>我太难了</strong></p>
+<p>真的是各种作死各种踩坑，花了两个晚上终于全搞定了。</p>
+<p><strong>这个页面是导航页面，请大家挑选观看，废话我都写在这个导航页里了，下面这些都是干货</strong></p>
 <ul>
-<li><a href="https://zhuanlan.zhihu.com/p/35668237" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/35668237</a></li>
-<li><a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md</a></li>
+<li>WSL</li>
+<li>在WSL里运行docker</li>
+<li>docker安装plex以及设置</li>
+<li>Cmder</li>
 </ul>
 <script>
         document.querySelectorAll('.github-emoji')
@@ -604,9 +619,9 @@ https://github">
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《The First Step》
+                    《【导航】Cmder+WSL+docker+plex》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/09/15/the-first-step/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/09/17/dao-hang-cmder-wsl-docker-plex/" property="cc:attributionName"
                rel="cc:attributionURL">
                 Channing Wong
             </a> 采用
@@ -646,9 +661,10 @@ https://github">
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2019/09/17/dao-hang-cmder-wsl-docker-plex/">
                     <div class="card-image">
@@ -667,9 +683,9 @@ https://github">
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-17
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-17
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
@@ -678,6 +694,7 @@ https://github">
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -708,19 +725,27 @@ https://github">
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/09/15/hello-world/">
+                <a href="/2019/09/15/the-first-step/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="The First Step">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">The First Step</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                            This is the first test page
+test
+二级标题中文五级标题中文Normal text
+
+over
+记录：
+
+https://zhuanlan.zhihu.com/p/35668237
+https://github
                         
                     </div>
                     <div class="publish-info">
@@ -734,6 +759,14 @@ https://github">
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/note/" target="_blank">
+                        <span class="chip bg-color">note</span>
+                    </a>
+                    
                 </div>
                 
             </div>
