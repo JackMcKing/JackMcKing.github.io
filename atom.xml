@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Flint Hexo</title>
+  
+  <subtitle>Flint never changes.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://jackmcking.github.io/"/>
+  <updated>2019-09-16T19:32:43.713Z</updated>
+  <id>http://jackmcking.github.io/</id>
+  
+  <author>
+    <name>Channing Wong</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WSL 采坑集锦</title>
+    <link href="http://jackmcking.github.io/2019/09/17/wsl-cai-keng-ji-jin/"/>
+    <id>http://jackmcking.github.io/2019/09/17/wsl-cai-keng-ji-jin/</id>
+    <published>2019-09-16T17:10:36.000Z</published>
+    <updated>2019-09-16T19:32:43.713Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;说着就来到第一关，折腾WSL，也就是Windows Subsystem
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="WSL" scheme="http://jackmcking.github.io/tags/WSL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【导航】Cmder+WSL+docker+plex</title>
+    <link href="http://jackmcking.github.io/2019/09/17/dao-hang-cmder-wsl-docker-plex/"/>
+    <id>http://jackmcking.github.io/2019/09/17/dao-hang-cmder-wsl-docker-plex/</id>
+    <published>2019-09-16T16:43:48.000Z</published>
+    <updated>2019-09-16T19:37:07.070Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;大好的中秋节，我为了一个更好的家庭影院，两个晚上全都折进去了，悉数无数的大坑，希望对大家有用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;目的：&lt;/strong&gt;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Cmder" scheme="http://jackmcking.github.io/tags/Cmder/"/>
+    
+      <category term="WSL" scheme="http://jackmcking.github.io/tags/WSL/"/>
+    
+      <category term="docker" scheme="http://jackmcking.github.io/tags/docker/"/>
+    
+      <category term="plex" scheme="http://jackmcking.github.io/tags/plex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The First Step</title>
+    <link href="http://jackmcking.github.io/2019/09/15/the-first-step/"/>
+    <id>http://jackmcking.github.io/2019/09/15/the-first-step/</id>
+    <published>2019-09-14T18:51:03.000Z</published>
+    <updated>2019-09-16T19:41:02.073Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;em&gt;This is the first test page&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;test&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;二级标题中文&quot;&gt;&lt;a href=&quot;#二级标题中文&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="note" scheme="http://jackmcking.github.io/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://jackmcking.github.io/2019/09/15/hello-world/"/>
+    <id>http://jackmcking.github.io/2019/09/15/hello-world/</id>
+    <published>2019-09-14T18:19:11.211Z</published>
+    <updated>2019-09-14T18:19:11.211Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
